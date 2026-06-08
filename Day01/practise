@@ -1,9 +1,0 @@
-let nums =[2,4,5,7,8,3,10,11,53,23];
-let result= nums.reduce( (max, el) => {
-    if(el>max){
-        return el;
-    }else{
-        return max;
-    }   
-});
-console.log(max);
